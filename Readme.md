@@ -23,10 +23,9 @@ cargo run {filename to compress} {filename to save to}
 #### Example
 
 ```bash
-touch test.txt
-cargo run test.txt test.txt.compressed
+cargo run rust-book.pdf rust-book.compressed
 ```
 
-Compresses the file test.txt and saves it as test.txt.compressed
+Compresses the rust book and saves it as `rust-book.compressed`.
 
 Also shows the compression ratio, and the time it took to compress the file.
